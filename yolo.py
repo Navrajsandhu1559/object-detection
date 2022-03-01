@@ -114,5 +114,5 @@ if len(idxs) > 0:
 			0.5, color, 2)
 
 # show the output image
-cv2.imshow("Image", image)
+cv2.imwrite("after.png", image)
 cv2.waitKey(0)
